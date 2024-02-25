@@ -1,0 +1,29 @@
+/* css global junto das variáveis de estilo */
+:root {
+  --background: #f9f9f9;
+  --text: #6d6d6d;
+  --button_border: #cccccc;
+  --primary: #0c4ef0;
+  --secondary: #00c2f0;
+  --tertiary: #050647;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  overflow: hidden;
+  background-color: var(--background);
+  height: auto;
+}
+
+p {
+  margin: 0;
+  color: var(--text);
+}
